@@ -1,0 +1,119 @@
+{
+  "theme": "light",
+  "archetype": "Archetype 4 (Swiss & High-Contrast) adapted for B2B Tech",
+  "design_philosophy": "Blend modern tech aesthetics (depth, subtle tech motifs, smooth transitions) with corporate professionalism (trust, authority, clean typography). Emphasize scale (biggest in Marathwada), authority (HP regional distributor), and trust.",
+  "colors": {
+    "background_primary": "#FFFFFF",
+    "background_secondary": "#F8FAFC",
+    "background_dark": "#0A0F1C",
+    "primary": "#0055FF",
+    "primary_hover": "#0044CC",
+    "text_main": "#0F172A",
+    "text_muted": "#475569",
+    "text_inverse": "#FFFFFF",
+    "border": "#E2E8F0",
+    "accent_cyan": "#06B6D4"
+  },
+  "typography": {
+    "heading_font": "Outfit",
+    "body_font": "IBM Plex Sans",
+    "h1": "text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight",
+    "h2": "text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight",
+    "h3": "text-xl sm:text-2xl font-medium",
+    "body": "text-base leading-relaxed",
+    "overline": "text-sm font-bold uppercase tracking-[0.2em] text-primary"
+  },
+  "layout_strategy": {
+    "container": "h-screen w-full overflow-y-auto snap-y snap-mandatory scroll-smooth hide-scrollbar",
+    "section": "min-h-screen w-full snap-start snap-always relative flex items-center justify-center pt-16 md:pt-0 overflow-hidden",
+    "spacing": "Generous spacing. Use p-8 to p-16 for internal card paddings. Elements should breathe.",
+    "grid": "Bento grid for Services and Partnerships sections. Asymmetrical 12-column layouts for desktop."
+  },
+  "components": {
+    "navigation": "Fixed glassmorphism header (z-50, backdrop-blur-xl bg-white/80). Include Logo (text), Links to sections, and 'Contact Us' button.",
+    "slides_indicator": "Fixed right-side dot navigation indicating the current slide (1 to 6).",
+    "buttons": "Shadcn Button. Primary: bg-[#0055FF] text-white hover:bg-[#0044CC] rounded-none. Secondary: outline border-border text-text_main.",
+    "forms": "Shadcn Input/Textarea. High contrast focus states (focus:ring-2 focus:ring-[#0055FF] focus:border-transparent).",
+    "whatsapp_cta": "Fixed bottom-right floating button (z-50) with WhatsApp icon, pulsing animation, bg-green-500 text-white rounded-full p-4 shadow-lg."
+  },
+  "pages_structure": [
+    {
+      "slide": 1,
+      "name": "Home/Hero",
+      "layout": "Dark theme section. Background image with bg-black/60 overlay. Large H1, Tagline, Primary CTA (Scroll to Contact) and Secondary CTA (View Services).",
+      "image": "hero_tech_bg"
+    },
+    {
+      "slide": 2,
+      "name": "About & Vision",
+      "layout": "Light theme. Split layout (1/2 text, 1/2 image). Large typography 'Established in 2005'. Emphasize 'Marathwada's Biggest Authorized Distributor'.",
+      "image": "office_building"
+    },
+    {
+      "slide": 3,
+      "name": "Partnerships & Brands",
+      "layout": "Light/Gray theme. Bento grid or Marquee of logos. Prominent 'HP Regional Distributor' badge. Followed by Lenovo, Dell, Intel, etc.",
+      "icons_strategy": "Use react-icons/si for (SiHp, SiLenovo, SiDell, SiIntel, SiMicrosoft, SiAmd, SiEpson). For others, use clean typography."
+    },
+    {
+      "slide": 4,
+      "name": "Services",
+      "layout": "Dark theme to show tech contrast. 4-column or bento grid showing: Laptop/Desktop Sales, IT Hardware, CCTV Installation, Repair & Maintenance.",
+      "images": ["hardware_showcase", "security_cctv"]
+    },
+    {
+      "slide": 5,
+      "name": "Major Clients & Training",
+      "layout": "Light theme. Split view. Left: Jetking Partnership (3500+ placements). Right: Client list (Govt, Police, Banks). Use server room background softly.",
+      "image": "server_room"
+    },
+    {
+      "slide": 6,
+      "name": "Contact",
+      "layout": "Light theme. Centered contact form (Name, Email, Phone, Message) + Company address/Phone details. Clean card layout with subtle shadow."
+    }
+  ],
+  "media_assets": {
+    "hero_tech_bg": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/cfadf56b-cd05-4ed8-b011-684ac1316725/images/36a10a2d3679414bfc7835d8faa1b0230437aaa653ba86d11af63df4608ba03f.png",
+      "description": "Abstract tech background for the hero section",
+      "category": "hero"
+    },
+    "hardware_showcase": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/cfadf56b-cd05-4ed8-b011-684ac1316725/images/34c615d2760b4b750b1a60a85b06b0e12005e37248b82f4c04585d74b0ee189c.png",
+      "description": "Premium laptops and hardware components",
+      "category": "services"
+    },
+    "security_cctv": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/cfadf56b-cd05-4ed8-b011-684ac1316725/images/e0c86692241603b7ae4e62ba838fa4f6dba0af5e11894df864ed07f9fec981ab.png",
+      "description": "Modern CCTV camera in corporate setting",
+      "category": "services"
+    },
+    "office_building": {
+      "url": "https://images.unsplash.com/photo-1694702702714-a48c5fabdaf3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8fHx8MTc3NjUwMzc1OXww&ixlib=rb-4.1.0&q=85",
+      "description": "Modern office building exterior for About section",
+      "category": "about"
+    },
+    "server_room": {
+      "url": "https://images.unsplash.com/photo-1680992046626-418f7e910589?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzZXJ2ZXIlMjByb29tJTIwZGF0YWNlbnRlcnxlbnwwfHx8fDE3NzY1MDM3NTl8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Server room datacenter for Clients/Training section",
+      "category": "training"
+    }
+  },
+  "accessibility_and_motion": {
+    "motion": "Use smooth scrolling for in-page navigation. Use Framer Motion for entrance animations (fade up, stagger children) on slide entry. Do not over-animate.",
+    "testing": "All interactive elements MUST have data-testid attributes (e.g., data-testid='contact-submit', data-testid='whatsapp-cta', data-testid='nav-about').",
+    "contrast": "Ensure white text over dark backgrounds has sufficient contrast (opacity min 90%). For hero overlay, use bg-black/60 minimum."
+  },
+  "instructions_to_main_agent": [
+    "Build a 6-section scroll-snap page where each section takes 100vh. Ensure mobile responsiveness. Implement CSS scroll-snap properly.",
+    "Install and use 'react-icons' (import from 'react-icons/si' and 'react-icons/fa') for brand logos and UI icons.",
+    "Install and use 'framer-motion' for slide entrance animations.",
+    "Do not use generic fonts like Inter for headings. Use Outfit (or similar modern geometric sans) via Google Fonts.",
+    "Implement a fixed side navigation (dots) that updates active state based on scroll position.",
+    "Ensure the WhatsApp CTA is floating globally on the bottom right.",
+    "Implement the Contact form using Shadcn UI forms. Since no backend is provided, simulate submission with a toast notification.",
+    "Ensure NO placeholder image URLs are used. Only use the media_assets provided.",
+    "CRITICAL: Create React components as .jsx or .js files, NOT .tsx (since the environment uses javascript)."
+  ]
+}
