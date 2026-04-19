@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Award, MapPin, Users } from "lucide-react";
 
 const OFFICE_IMG =
-  "https://images.unsplash.com/photo-1694702702714-a48c5fabdaf3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDB8fHx8MTc3NjUwMzc1OXww&ixlib=rb-4.1.0&q=85";
+  "https://customer-assets.emergentagent.com/job_hp-distributor-mw/artifacts/3vfvenzk_image.png";
 
 export default function AboutSection() {
   return (
@@ -89,17 +89,17 @@ export default function AboutSection() {
           <div className="relative aspect-[4/5] w-full overflow-hidden">
             <img
               src={OFFICE_IMG}
-              alt="Modern office building"
+              alt="Chhatrapati Sambhaji Maharaj statue — symbol of Chh. Sambhaji Nagar"
               className="w-full h-full object-cover"
               data-testid="about-image"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0A0F1C]/70 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0A0F1C]/80 via-[#0A0F1C]/20 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
               <div className="font-mono text-[10px] uppercase tracking-[0.24em] text-white/70">
-                Since 2005
+                Proudly rooted in
               </div>
               <div className="font-display text-2xl font-semibold mt-1">
-                Chh. Sambhaji Nagar HQ
+                Chh. Sambhaji Nagar
               </div>
             </div>
           </div>
