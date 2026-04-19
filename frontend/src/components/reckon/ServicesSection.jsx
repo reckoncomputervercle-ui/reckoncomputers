@@ -8,6 +8,7 @@ import {
   Printer,
   RefreshCw,
 } from "lucide-react";
+import BankOffersMarquee from "@/components/reckon/BankOffersMarquee";
 
 const SERVICES = [
   {
@@ -56,11 +57,12 @@ export default function ServicesSection() {
   return (
     <section
       id="services"
-      className="rc-section bg-[#0A0F1C] text-white"
+      className="rc-section !items-stretch bg-[#0A0F1C] text-white"
       data-testid="section-services"
     >
       <div className="absolute inset-0 rc-grid-overlay opacity-30" />
-      <div className="relative w-full max-w-7xl mx-auto px-5 md:px-10 pt-24 pb-12">
+      <div className="relative w-full flex flex-col">
+        <div className="w-full max-w-7xl mx-auto px-5 md:px-10 pt-24 pb-8 flex-1 flex flex-col justify-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -130,6 +132,10 @@ export default function ServicesSection() {
             </motion.div>
           ))}
         </div>
+        </div>
+
+        {/* Bank EMI offers marquee */}
+        <BankOffersMarquee />
       </div>
     </section>
   );

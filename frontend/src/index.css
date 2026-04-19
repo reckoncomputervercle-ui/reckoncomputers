@@ -108,8 +108,11 @@ body {
     }
 }
 .rc-marquee-track {
-    animation: rc-marquee 35s linear infinite;
+    animation: rc-marquee 40s linear infinite;
     width: max-content;
+}
+.rc-marquee-track:hover {
+    animation-play-state: paused;
 }
 
 /* Glass */
