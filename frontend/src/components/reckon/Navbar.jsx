@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Cpu, MapPin } from "lucide-react";
+import { Menu, X, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const MAPS_URL =
@@ -24,11 +24,8 @@ export default function Navbar({ active, onNav, sections }) {
           className="flex items-center gap-2.5 group"
           data-testid="nav-logo"
         >
-          <span className="w-9 h-9 rounded-[8px] bg-[#A30000] text-white flex items-center justify-center">
-            <Cpu className="w-5 h-5" strokeWidth={2.2} />
-          </span>
           <span className="flex flex-col leading-none text-left">
-            <span className="font-display font-extrabold text-[16px] tracking-tight text-[#A30000]">
+            <span className="font-display font-extrabold text-[18px] tracking-tight text-[#A30000]">
               RECKON
             </span>
             <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-[#A30000]/80">
