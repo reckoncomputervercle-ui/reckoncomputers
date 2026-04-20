@@ -26,19 +26,19 @@ export default function Navbar({ active, onNav, sections }) {
 >
   <span className="flex flex-col leading-none text-left">
     
-    <span
-      className="font-extrabold text-[18px] tracking-tight text-[#A30000]"
-      style={{ fontFamily: 'Bungee' }}
-    >
-      RECKON
-    </span>
+<span
+  className="font-extrabold text-[18px] tracking-tight text-[#A30000]"
+  style={{ fontFamily: 'Bazooka' }}
+>
+  RECKON
+</span>
 
-    <span
-      className="text-[10px] uppercase tracking-[0.22em] text-[#A30000]/80"
-      style={{ fontFamily: 'Bungee' }}
-    >
-      Computers
-    </span>
+<span
+  className="text-[10px] uppercase tracking-[0.22em] text-[#A30000]/80"
+  style={{ fontFamily: 'Bazooka' }}
+>
+  Computers
+</span>
 
   </span>
 </button>
