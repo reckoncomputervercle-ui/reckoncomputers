@@ -93,8 +93,8 @@ export default function ContactSection() {
             <span className="text-[#475569]">technology.</span>
           </h2>
           <p className="mt-6 text-[#475569] leading-relaxed max-w-md">
-            Walk into our store, call us, or message on WhatsApp — our team
-            replies within minutes during working hours.
+            Walk into our computer shop in Aurangabad, call us, or message on
+            WhatsApp — our team replies within minutes during working hours.
           </p>
 
           {/* Store location card with map preview */}
@@ -301,7 +301,7 @@ export default function ContactSection() {
             © {new Date().getFullYear()} Reckon Computers · Chh. Sambhaji Nagar
           </div>
           <div className="font-mono text-[10px] uppercase tracking-[0.24em] text-[#475569]">
-            HP Regional Distributor · Authorized Intel · Microsoft · Lenovo · Dell
+            Authorized HP, Dell & Lenovo Dealer · Intel · Microsoft Partner · IT Solutions Company in Marathwada
           </div>
         </div>
       </footer>

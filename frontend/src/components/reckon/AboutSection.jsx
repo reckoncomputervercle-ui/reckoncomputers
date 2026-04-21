@@ -28,14 +28,17 @@ export default function AboutSection() {
           <h2 className="font-display text-4xl sm:text-5xl lg:text-[64px] font-bold leading-[1.02] tracking-tight">
             Two decades of powering
             <br />
-            <span className="text-[#475569]">Marathwada's businesses.</span>
+            <span className="text-[#475569]">Marathwada's businesses —</span>
+            <br />
+            <span className="text-[#475569]">IT solutions company in Chhatrapati Sambhajinagar.</span>
           </h2>
           <p className="mt-7 text-[#475569] text-base md:text-lg leading-relaxed max-w-2xl">
             Founded in <span className="text-[#0F172A] font-semibold">2005</span>,
-            Reckon Computers started as a neighbourhood IT shop in Chh. Sambhaji
-            Nagar and is today the leading IT products &amp; services company
-            across the Marathwada region — trusted for quality, speed and
-            rock-solid after-sales service.
+            Reckon Computers started as a neighbourhood computer shop in
+            Aurangabad (Chh. Sambhaji Nagar) and is today the leading IT
+            hardware supplier in Marathwada and an authorized HP, Dell &amp;
+            Lenovo dealer — trusted for quality, speed and rock-solid
+            after-sales service.
           </p>
 
           <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-0 sm:gap-0 border-t border-[#E2E8F0]">

@@ -31,7 +31,7 @@ export default function HeroSection({ onNav }) {
             >
               <span className="w-1.5 h-1.5 rounded-full bg-[#06B6D4] animate-pulse" />
               <span className="font-display text-[13px] font-medium tracking-wide text-white/85">
-                Est. 2005 · Chh. Sambhaji Nagar
+                Est. 2005 · Computer Shop in Aurangabad · Chh. Sambhaji Nagar
               </span>
             </motion.div>
 
@@ -46,7 +46,7 @@ export default function HeroSection({ onNav }) {
               <br />
               <span className="text-white/55">authorized</span>{" "}
               <span className="relative inline-block">
-                distributor
+                HP, Dell & Lenovo dealer
                 <span className="absolute -bottom-1 left-0 right-0 h-[6px] bg-[#0055FF]" />
               </span>
               .
@@ -58,9 +58,11 @@ export default function HeroSection({ onNav }) {
               transition={{ duration: 0.8, delay: 0.35 }}
               className="mt-8 max-w-2xl text-base md:text-lg text-white/70 leading-relaxed"
             >
-              Two decades of trust delivering computers, laptops, printers,
-              CCTV surveillance and end-to-end IT solutions to banks, colleges,
-              government bodies and enterprises across the Marathwada region.
+              Two decades of trust as the leading laptop dealer in Aurangabad
+              and IT solutions company in Marathwada — delivering computers,
+              laptops, printers, CCTV installation and end-to-end IT support to
+              banks, colleges, government bodies and enterprises across
+              Chhatrapati Sambhajinagar and the Marathwada region.
             </motion.p>
 
             <motion.div

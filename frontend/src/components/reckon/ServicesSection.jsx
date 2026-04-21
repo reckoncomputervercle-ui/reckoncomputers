@@ -13,42 +13,42 @@ import BankOffersMarquee from "@/components/reckon/BankOffersMarquee";
 const SERVICES = [
   {
     icon: Laptop,
-    title: "Laptop & Desktop Sales",
-    desc: "HP, Lenovo, Dell and custom-built workstations — business, gaming, enterprise & consumer grades, all genuine with OEM warranty.",
+    title: "Laptop Dealer in Aurangabad",
+    desc: "Authorized HP, Dell & Lenovo dealer — business, gaming, enterprise and consumer laptops plus custom-built desktops, all genuine with OEM warranty, for homes and offices across Chhatrapati Sambhajinagar.",
     image:
       "https://static.prod-images.emergentagent.com/jobs/cfadf56b-cd05-4ed8-b011-684ac1316725/images/34c615d2760b4b750b1a60a85b06b0e12005e37248b82f4c04585d74b0ee189c.png",
     tag: "01",
   },
   {
     icon: HardDrive,
-    title: "IT Hardware & Accessories",
-    desc: "Servers, storage, networking, peripherals & consumables — everything from a single SKU to a full office rollout.",
+    title: "IT Hardware Supplier · Marathwada",
+    desc: "Servers, storage, networking, peripherals & consumables — your single-window IT hardware supplier in Marathwada, from a single SKU to a full office rollout.",
     tag: "02",
   },
   {
     icon: Video,
-    title: "CCTV Installation",
-    desc: "End-to-end surveillance solutions with CP Plus, Hikvision & Dahua — site survey, installation, DVR/NVR and AMC.",
+    title: "CCTV Installation in Aurangabad",
+    desc: "End-to-end CCTV installation in Aurangabad with CP Plus, Hikvision & Dahua — site survey, installation, DVR/NVR configuration and annual maintenance (AMC).",
     image:
       "https://static.prod-images.emergentagent.com/jobs/cfadf56b-cd05-4ed8-b011-684ac1316725/images/e0c86692241603b7ae4e62ba838fa4f6dba0af5e11894df864ed07f9fec981ab.png",
     tag: "03",
   },
   {
     icon: Wrench,
-    title: "Repair & Maintenance",
-    desc: "On-site & in-store repairs, AMC contracts, motherboard-level diagnosis and rapid-response service.",
+    title: "Computer Repair Service in Aurangabad",
+    desc: "On-site & in-store computer repair service in Aurangabad — AMC contracts, motherboard-level diagnosis, chip-level repair and rapid-response service for offices and homes.",
     tag: "04",
   },
   {
     icon: Printer,
-    title: "Printing Solutions",
-    desc: "Authorized dealer for HP and Epson — inkjet, LaserJet, multifunction & large format, with cartridge and toner supply.",
+    title: "Printer Dealer in Aurangabad",
+    desc: "Authorized printer dealer in Aurangabad for HP and Epson — inkjet, LaserJet, multifunction and large-format printers, with cartridge, toner and service support.",
     tag: "05",
   },
   {
     icon: RefreshCw,
     title: "Certified Refurbished Dealer",
-    desc: "Factory-refurbished laptops, desktops & printers — fully tested, warranty-backed and up to 40% more affordable than new.",
+    desc: "Factory-refurbished laptops, desktops & printers — fully tested, warranty-backed and up to 40% more affordable than new, ideal for startups and institutions in Marathwada.",
     tag: "06",
   },
 ];
@@ -78,14 +78,15 @@ export default function ServicesSection() {
               </span>
             </div>
             <h2 className="font-display text-4xl sm:text-5xl lg:text-[56px] font-bold leading-[1.02] tracking-tight max-w-3xl">
-              Hardware, security & support —
+              IT hardware, CCTV & computer repair in Aurangabad —
               <br />
               <span className="text-white/50">under one roof.</span>
             </h2>
           </div>
           <p className="text-white/60 max-w-sm text-sm md:text-base">
             Whether you need a single laptop or a 500-user rollout with CCTV
-            and AMC, our team handles procurement, deployment and service
+            installation and AMC, Reckon Computers — the trusted IT solutions
+            company in Marathwada — handles procurement, deployment and service
             end-to-end.
           </p>
         </motion.div>
