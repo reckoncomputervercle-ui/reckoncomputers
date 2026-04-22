@@ -1,0 +1,17 @@
+{
+  "name": "reckon-computers-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reckon Computers - static React site served by a tiny Node/Express server for GoDaddy Node.js PaaS.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.19.2"
+  }
+}

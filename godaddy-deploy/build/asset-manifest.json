@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "./static/css/main.6f0ae5df.css",
+    "main.js": "./static/js/main.e667b800.js",
+    "static/media/bazooka.ttf": "./static/media/bazooka.1e996310b20511df3200.ttf",
+    "index.html": "./index.html",
+    "main.6f0ae5df.css.map": "./static/css/main.6f0ae5df.css.map",
+    "main.e667b800.js.map": "./static/js/main.e667b800.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f0ae5df.css",
+    "static/js/main.e667b800.js"
+  ]
+}
