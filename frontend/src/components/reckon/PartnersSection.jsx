@@ -5,9 +5,27 @@ import {
   SiLenovo,
   SiIntel,
   SiAmd,
+  SiAsus,
+  SiMsibusiness,
 } from "react-icons/si";
 import { FaMicrosoft } from "react-icons/fa";
-import { Zap, ShieldCheck, Printer, Video } from "lucide-react";
+import { Zap, ShieldCheck, Printer, Video, Gamepad2 } from "lucide-react";
+
+// Gaming & Commercial brands — ASUS and MSI, distributed by Reckon in Marathwada region
+const GAMING_BRANDS = [
+  {
+    name: "ASUS",
+    badge: "Commercial Distributor · Marathwada",
+    render: () => <SiAsus className="w-16 h-16 md:w-20 md:h-20 text-[#0F172A]" />,
+  },
+  {
+    name: "MSI",
+    badge: "Commercial Distributor · Marathwada",
+    render: () => (
+      <SiMsibusiness className="w-16 h-16 md:w-20 md:h-20 text-[#C8102E]" />
+    ),
+  },
+];
 
 // Primary IT partner brands (main row)
 const PRIMARY_BRANDS = [
@@ -376,6 +394,24 @@ export default function PartnersSection() {
               </motion.div>
             ))}
           </div>
+        </div>
+
+        {/* Gaming & Commercial — ASUS & MSI (Marathwada Distributor) */}
+        <div className="mb-6">
+          <div className="flex items-center gap-2 mb-3 text-[#475569]">
+            <Gamepad2 className="w-3.5 h-3.5 text-[#0055FF]" />
+            <span className="font-mono text-[10px] uppercase tracking-[0.24em]">
+              Gaming & Commercial — Authorized Distributor · Marathwada
+            </span>
+          </div>
+          <div className="grid grid-cols-2 border-t border-l border-[#E2E8F0]">
+            {GAMING_BRANDS.map((b) => (
+              <BrandTile key={b.name} brand={b} accent="#0055FF" />
+            ))}
+          </div>
+          <p className="mt-3 font-mono text-[11px] uppercase tracking-[0.22em] text-[#0055FF]">
+            Authorized MSI & ASUS Commercial Distribution — Marathwada Region
+          </p>
         </div>
 
         {/* Surveillance */}

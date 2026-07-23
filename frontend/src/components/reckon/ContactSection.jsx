@@ -144,6 +144,13 @@ export default function ContactSection() {
                 testId: "contact-phone-2",
               },
               {
+                icon: Phone,
+                label: "Enquiries",
+                value: "+91 98909 66555",
+                href: "tel:+919890966555",
+                testId: "contact-phone-3",
+              },
+              {
                 icon: Mail,
                 label: "Email",
                 value: "info@reckoncomputers.in",
@@ -301,7 +308,7 @@ export default function ContactSection() {
             © {new Date().getFullYear()} Reckon Computers · Chh. Sambhaji Nagar
           </div>
           <div className="font-mono text-[10px] uppercase tracking-[0.24em] text-[#475569]">
-            HP Regional Distributor · Authorized Intel · Microsoft · Lenovo · Dell · IT Solutions Company in Marathwada
+            HP Regional Distributor · Authorized ASUS & MSI Commercial Distributor (Marathwada) · Authorized Intel · Microsoft · Lenovo · Dell · IT Solutions Company in Marathwada
           </div>
         </div>
       </footer>
